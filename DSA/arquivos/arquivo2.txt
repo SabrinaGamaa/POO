@@ -1,0 +1,2 @@
+Aprendendo a programar em Python. E a metodologia de ensino da Data Science Academy facilita o aprendizado.
+Estou continuando a jornada de Python no ensino da Data Science Academy.
