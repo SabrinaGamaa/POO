@@ -1,4 +1,4 @@
-abrir = open('../DSA/arquivos/salarios.csv', 'rt')
+abrir = open('/Users/Sabrina Gama/Downloads/python/POO/manipulacao-de-arquivo-2/arquivos/salarios.csv', 'rt')
 ler = abrir.readlines()
 lista_vazia = []
 

@@ -1,6 +1,6 @@
 # Abrindo um arquivo para leitura.
 #abrir_arquivo = open('C:/Users/Sabrina Gama/Desktop/POO/DSA/arquivos/arquivo1.txt', 'rt')
-abrir_arquivo1 = open('../DSA/arquivos/arquivo1.txt')
+abrir_arquivo1 = open('/Users/Sabrina Gama/Downloads/python/POO/manipulacao-de-arquivo-2/arquivos/arquivo1.txt')
 # descobrir o tipo do arquivo
 type(abrir_arquivo1)
 print(abrir_arquivo1.read())

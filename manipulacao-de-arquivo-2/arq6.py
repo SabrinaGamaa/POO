@@ -1,5 +1,5 @@
 import csv
-with open('POO/manipulacao-de-arquivo-2/numeros.csv', 'w') as arquivo:
+with open('/Users/Sabrina Gama/Downloads/python/POO/manipulacao-de-arquivo-2/arquivos/numeros.csv', 'w') as arquivo:
     #Criando objeto para a Gravação
     escrever = csv.writer(arquivo)
     escrever.writerow(('nota1', 'nota2', 'nota3'))
@@ -8,12 +8,12 @@ with open('POO/manipulacao-de-arquivo-2/numeros.csv', 'w') as arquivo:
     escrever.writerow((28, 84, 43))
 
 # ler o arquivo cvs
-with open('POO/manipulacao-de-arquivo-2/numeros.csv', 'r', encoding='utf8', newline='\r\n') as arquivo:
+with open('/Users/Sabrina Gama/Downloads/python/POO/manipulacao-de-arquivo-2/arquivos/numeros.csv', 'r', encoding='utf8', newline='\r\n') as arquivo:
     leitor = csv.reader(arquivo)
     for linha in leitor:
         print(linha)
 
-with open('POO/manipulacao-de-arquivo-2/numeros.csv', 'r', encoding='utf8', newline='\r\n') as arquivo:
+with open('/Users/Sabrina Gama/Downloads/python/POO/manipulacao-de-arquivo-2/arquivos/numeros.csv', 'r', encoding='utf8', newline='\r\n') as arquivo:
     leitor = csv.reader(arquivo)
     dados = list(leitor)
 
